@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-flow: column;
+    font-style: italic;
+    font-weight: bolder;
+    min-height: 100vh;
+     
+}
+
+.main > * {
+    flex: 1;
+  }
+
+header{
+    background: lightskyblue;
+    padding: 15px;
+    height: 15vh;
+    
+}
+
+nav{
+    background: plum;
+    flex: 1 2 0;
+    padding: 15px;
+    
+}
+
+article{
+    background: lightyellow;
+    flex: 1 0 50%;
+    padding: 15px;
+    
+}
+
+aside{
+    background: pink;
+    flex: 1 2 0;
+    padding: 15px;
+   
+}
+
+footer{
+    background: lightblue;
+    padding: 15px;
+}
+
+.parts{
+    display: flex;
+flex-direction: row;
+min-height: 80vh;
+flex: 1;
+}
